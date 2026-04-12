@@ -1,4 +1,4 @@
-# ☕ CaféHistoire — Laravel Blog Package
+#  CaféHistoire — Laravel Blog Package
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/cafehistoire/laravel-cafe-blog.svg?style=flat-square)](https://packagist.org/packages/cafehistoire/laravel-cafe-blog)
 [![Tests](https://img.shields.io/github/actions/workflow/status/cafehistoire/laravel-cafe-blog/tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/cafehistoire/laravel-cafe-blog/actions)
