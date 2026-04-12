@@ -1,0 +1,64 @@
+{
+    "name": "cafehistoire/laravel-cafe-blog",
+    "description": "Un thème de blog élégant dédié à la culture et l'histoire du café pour Laravel",
+    "type": "library",
+    "keywords": ["laravel", "blog", "cafe", "coffee", "culture", "histoire", "theme", "cms"],
+    "homepage": "https://github.com/cafehistoire/laravel-cafe-blog",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CaféHistoire",
+            "email": "hello@cafehistoire.dev",
+            "homepage": "https://cafehistoire.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0|^11.0",
+        "league/commonmark": "^2.4",
+        "spatie/laravel-tags": "^4.3",
+        "spatie/laravel-sluggable": "^3.4",
+        "spatie/laravel-image-optimizer": "^1.7",
+        "intervention/image": "^3.3",
+        "livewire/livewire": "^3.4"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "pestphp/pest": "^2.6",
+        "pestphp/pest-plugin-laravel": "^2.2",
+        "mockery/mockery": "^1.6",
+        "fakerphp/faker": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "CafeHistoire\\CafeBlog\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CafeHistoire\\CafeBlog\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/pest",
+        "test-coverage": "./vendor/bin/pest --coverage",
+        "lint": "./vendor/bin/phpstan analyse src --level=8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CafeHistoire\\CafeBlog\\CafeBlogServiceProvider"
+            ],
+            "aliases": {
+                "CafeBlog": "CafeHistoire\\CafeBlog\\Facades\\CafeBlog"
+            }
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
