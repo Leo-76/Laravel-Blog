@@ -71,7 +71,7 @@ Insère 3 auteurs, 8 catégories et 3 articles d'exemple sur l'histoire du café
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 Publiez et éditez le fichier de configuration :
 
@@ -107,7 +107,7 @@ return [
 
 ---
 
-## 🛣️ Routes générées
+##  Routes générées
 
 | Méthode | URL | Nom de route |
 |---|---|---|
@@ -138,7 +138,7 @@ return [
 
 ---
 
-## 🎨 Personnalisation des vues
+##  Personnalisation des vues
 
 Publiez les vues pour les personnaliser :
 
