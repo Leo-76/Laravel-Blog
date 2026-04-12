@@ -9,27 +9,27 @@ Un package Laravel complet pour créer un blog élégant dédié à la **culture
 
 ---
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
-- 📝 **Blog complet** — Articles, catégories, tags, auteurs, commentaires
-- 🌍 **Filtres par origine** — Éthiopie, Yémen, Brésil, Kenya, Colombie…
-- 📅 **Filtres par époque** — Antiquité, Moyen Âge, Renaissance, Époque Moderne…
-- 🎨 **Thème espresso** — Design magazine avec Playfair Display + Lora, 100 % CSS custom properties
-- 👤 **Profils auteurs** — Bio, préférence café, origine de spécialité
-- 💬 **Commentaires** — Avec modération et réponses imbriquées
-- 🔍 **Recherche full-text** — Parmi tous les articles
-- 📡 **Flux RSS** — Flux XML standard
-- 🗺️ **Sitemap XML** — Pour les moteurs de recherche
-- 🔌 **API REST JSON** — `/api/blog/posts`, `/api/blog/search`, etc.
-- 🛡️ **Admin intégré** — Tableau de bord, CRUD articles/catégories/auteurs/commentaires
-- ⏱️ **Temps de lecture** — Calculé automatiquement
-- 📊 **Compteur de vues** — Throttlé par session
-- 🧪 **Tests Pest** — Feature + Unit tests inclus
-- 🌐 **i18n** — Traductions FR + EN fournies
+- **Blog complet** — Articles, catégories, tags, auteurs, commentaires
+-  **Filtres par origine** — Éthiopie, Yémen, Brésil, Kenya, Colombie…
+- **Filtres par époque** — Antiquité, Moyen Âge, Renaissance, Époque Moderne…
+- **Thème espresso** — Design magazine avec Playfair Display + Lora, 100 % CSS custom properties
+-  **Profils auteurs** — Bio, préférence café, origine de spécialité
+- **Commentaires** — Avec modération et réponses imbriquées
+-  **Recherche full-text** — Parmi tous les articles
+- **Flux RSS** — Flux XML standard
+- **Sitemap XML** — Pour les moteurs de recherche
+-  **API REST JSON** — `/api/blog/posts`, `/api/blog/search`, etc.
+- **Admin intégré** — Tableau de bord, CRUD articles/catégories/auteurs/commentaires
+- **Temps de lecture** — Calculé automatiquement
+- **Compteur de vues** — Throttlé par session
+-  **Tests Pest** — Feature + Unit tests inclus
+- **i18n** — Traductions FR + EN fournies
 
 ---
 
-## 📋 Prérequis
+## Prérequis
 
 | Dépendance | Version |
 |---|---|
@@ -41,7 +41,7 @@ Un package Laravel complet pour créer un blog élégant dédié à la **culture
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Via Composer
 
@@ -150,7 +150,7 @@ Les vues sont copiées dans `resources/views/vendor/cafe-blog/`.
 
 ---
 
-## 🔧 Facade & Service
+## Facade & Service
 
 ```php
 use CafeHistoire\CafeBlog\Facades\CafeBlog;
@@ -176,7 +176,7 @@ $origins = CafeBlog::coffeeOriginsWithCounts();
 
 ---
 
-## 🧩 Directives Blade
+##  Directives Blade
 
 ```blade
 {{-- Temps de lecture --}}
@@ -188,7 +188,7 @@ $origins = CafeBlog::coffeeOriginsWithCounts();
 
 ---
 
-## 🧪 Tests
+##  Tests
 
 ```bash
 composer test
@@ -198,7 +198,7 @@ La suite inclut des tests Feature (routes, vues, commentaires, API) et des tests
 
 ---
 
-## 📦 Publication partielle
+##  Publication partielle
 
 ```bash
 # Config seulement
@@ -222,11 +222,11 @@ php artisan vendor:publish --tag=cafe-blog
 
 ---
 
-## 🌍 Origines du café supportées
+##  Origines du café supportées
 
 Éthiopie · Yémen · Brésil · Colombie · Vietnam · Indonésie · Guatemala · Kenya · Costa Rica · Jamaïque · Mondial
 
-## 📅 Époques historiques supportées
+##  Époques historiques supportées
 
 - Antiquité (avant 600)
 - Moyen Âge (600–1400)
@@ -236,7 +236,7 @@ php artisan vendor:publish --tag=cafe-blog
 
 ---
 
-## 📄 Licence
+##  Licence
 
 MIT — voir [LICENSE.md](LICENSE.md)
 
