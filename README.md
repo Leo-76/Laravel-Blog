@@ -242,7 +242,7 @@ MIT — voir [LICENSE.md](LICENSE.md)
 
 ---
 
-## 🤝 Contribution
+##  Contribution
 
 Les contributions sont les bienvenues ! Consultez [CONTRIBUTING.md](CONTRIBUTING.md).
 
