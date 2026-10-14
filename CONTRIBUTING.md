@@ -1,6 +1,6 @@
 # Guide de contribution — CaféHistoire Blog
 
-Merci de l'intérêt que vous portez à ce projet ! ☕
+Merci de l'intérêt que vous portez à ce projet ! 
 
 ## Prérequis
 
